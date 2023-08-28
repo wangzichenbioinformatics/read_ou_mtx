@@ -1,5 +1,4 @@
-# read_ou_mtx
-
+# read_OU_mtx library is to read single cell raw data in C4 platform
 #read_ou_mtx is a very easy tool to solve when you raw data is not 10X.
 #var_names = genes[1].values error
 #It appears there is no second column in your genes.tsv file, which is causing this error. Can you retry the command with the gene.column #argument set to 1 and let me know if it works? e.g.
