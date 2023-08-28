@@ -6,6 +6,7 @@
 #In R seurat package ,you can use Read10X("same_directory", gene.column=1),but we have not same function in scanpy.
 #so we write read_ou_mtx function that can  solve it.
 you can use in python scripts
+!pip install read_OU_mtx
 from read_OU_mtx import read_OU_mtx
 adata=read_OU_mtx(
     "./data/filtered_gene_bc_matrices/hg19/",  # the directory with the `.mtx` file
